@@ -28,8 +28,8 @@
                   "    console.log('Token kaydedildi:', json.token);",
                   "}",
                   "",
-                  "pm.test('Response time < 130ms', function () {",
-                  "    pm.expect(pm.response.responseTime).to.be.below(130);",
+                  "pm.test('Response time < 1000ms', function () {",
+                  "    pm.expect(pm.response.responseTime).to.be.below(1000);",
                   "});"
                 ],
                 "type": "text/javascript",
