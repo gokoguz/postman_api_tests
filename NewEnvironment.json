@@ -1,0 +1,11 @@
+{
+  "id": "test-env",
+  "name": "local",
+  "values": [
+    {
+      "key": "baseUrl",
+      "value": "restful-booker.herokuapp.com",
+      "enabled": true
+    }
+  ]
+}
